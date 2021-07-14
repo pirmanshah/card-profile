@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="post">
-                <div class="add-post">
+                <div onclick="showConfetti()" class="add-post">
                     <img src="./img/plus.svg" alt="image">
                 </div>
                 <div class="post-1">
@@ -64,6 +64,16 @@
                 View Profile
             </button>
         </div>
+
+        <div class="footer">
+            <p>
+                <span role="img" aria-label="Author of the website">👨🏻‍💻</span>
+                <a href="https://www.pirmansyah.id">Pirmansyah</a> | 
+                <span role="img" aria-label="Source code">📝</span> 
+                <a href="https://github.com/pirmanshah">Github</a>
+            </p>
+        </div>
+        
     </div>
     <!-- modal -->
     <div class="modal-overlay ">
@@ -81,6 +91,7 @@
         
         </div><!-- modal -->
     </div><!-- overlay -->
+    <script src="./confetti.min.js"></script>
     <script src="./app.js"></script>
 </body>
 </html>
