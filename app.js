@@ -56,7 +56,7 @@ const showConfetti5 = () => {
 
 const showConfetti6 = () => {
   jsConfetti.addConfetti({
-      emojis: ['✨', '💫', '🌸'],
+      emojis: ['✨', '💫', '✈️'],
       emojiSize: 50,
       confettiNumber: 100,
    })
